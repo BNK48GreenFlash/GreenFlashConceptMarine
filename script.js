@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 function tweetMessage() {
-    const message = "Arlee GreenFlash\n#MarineBNK48\n#GreenFlashConceptDay3";
+    const message = "Marine GreenFlash\n#MarineBNK48\n#GreenFlashConceptDay3";
     const tweetUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(message)}`;
     window.open(tweetUrl, '_blank');
 }
